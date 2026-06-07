@@ -31,6 +31,28 @@ To design and implement an end-to-end data engineering workflow for a large-scal
 - Databricks Volumes
 
 ---
+## 🏗️ Project Architecture
+
+```text
+Source Files (CSV)
+        ↓
+Databricks Volumes
+        ↓
+PySpark DataFrames
+        ↓
+Data Quality Validation
+        ↓
+Data Cleaning & Standardization
+        ↓
+Data Transformation & Integration
+        ↓
+Feature Engineering
+        ↓
+Delta Lake Storage
+        ↓
+Analytics Layer
+```
+---
 
 ## 🔄 Data Engineering & Processing
 
